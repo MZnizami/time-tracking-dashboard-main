@@ -44,8 +44,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/i-used-grid-and-media-to-make-it-responsive-GDQnq1zzP)
+- Live Site URL: (https://mznizami.github.io/time-tracking-dashboard-main/)
 
 ## My process
 I had a lot of fun working on this project. I learned so much from creating this project, including CSS flexbox and griding. After this project, I am more confident in my ability to build a responsive website. 
