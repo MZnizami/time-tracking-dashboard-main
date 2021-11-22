@@ -70,7 +70,7 @@ I was able to gain valuable insight into CSS flexbox, grinding, and responsive w
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@MZnizami](https://www.frontendmentor.io/profile/MZnizami)
 
 ## Acknowledgments
 
