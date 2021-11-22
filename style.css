@@ -1,0 +1,202 @@
+body{
+   background-color: hsl(226, 43%, 10%);
+   color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.2fr 40%;
+  justify-content:center;
+  margin-top: 10%;
+  grid-template-rows: 0fr;
+  grid-gap: 10px;
+  
+ 
+
+}
+
+.container .jeremy{
+height: fit-content;
+}
+.container .jeremy {
+   
+
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+   
+ 
+  
+}
+.container section{
+    
+    display:grid;
+    grid-template-columns: repeat(3,150px);
+
+    grid-gap: 10px;
+   
+}
+
+ .work{
+ /* grid-area: work; */
+    border-radius: 10px;
+    background-color: hsl(15, 100%, 70%);
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+  
+    
+   
+
+}
+.all-info{
+    
+
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 10px;
+   
+    margin-top: 2.5rem;
+   
+}
+.all-info:hover{
+    background-color:   hsl(246, 80%, 60%);
+}
+.all-info > div{
+    max-height: 30px;
+}
+
+.info-work{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    
+}
+.time h5{
+    color:hsl(235, 45%, 61%);
+}
+.time h1, h5{
+   max-height:5px;
+}
+section .play{
+    /* grid-area: play; */
+    border-radius: 10px;
+    background-color: hsl(195, 74%, 62%);
+    background-image: url("images/icon-play.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+section .study{
+  /* grid-area: study; */
+    border-radius: 10px;
+    background-color: hsl(348, 100%, 68%);
+    background-image: url("images/icon-study.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+section .exercise{
+   /* grid-area: exercise; */
+    border-radius: 10px;
+    background-color: hsl(145, 58%, 55%);
+    background-image: url("images/icon-exercise.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+section .social{
+    /* grid-area: social; */
+    border-radius: 10px;
+    background-color: hsl(264, 64%, 52%);
+    background-image: url("images/icon-social.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+section .self-care{
+   /* grid-area: self-care; */
+    border-radius: 10px;
+    background-color: hsl(43, 84%, 65%);
+    background-image: url("images/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+
+.jeremy .info{
+    background-color: hsl(246, 80%, 60%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+   
+}
+.info img{
+    width: 32%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.jeremy .report{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    padding: 10px;
+    justify-items: left;
+
+}
+.report button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 10px;
+    color: hsl(235, 45%, 61%);
+    padding: 7px;
+    text-align: left;
+    font-weight: bold;
+    width:fit-content;
+}
+.report button:hover{
+    color: white;
+}
+@media only screen and (max-width: 780px) {
+    .container{
+        display: grid;
+        grid-template-columns:repeat(1,100%);
+        grid-template-rows: max-content;
+        font-size: 10px;
+    
+    }
+    .container section{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .time{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+    }
+  .time h1{
+      font-size: 15px;
+  }
+    .jeremy{
+        margin-bottom: 10px;
+    }
+    .jeremy .info{
+        height: 90px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 10px;
+    }
+    .info img{
+        width: 50px;
+    }
+   
+    .jeremy .report {
+    
+        grid-template-columns: repeat(3, 70px);
+        justify-content: center;
+    }
+  .attribution{
+      font-size: 11px;
+  }
+}
